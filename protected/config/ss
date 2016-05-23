@@ -1,0 +1,55 @@
+-- Database: basictest
+
+-- DROP DATABASE basictest;
+
+CREATE DATABASE basictest
+  WITH OWNER = postgres
+       ENCODING = 'UTF8'
+       TABLESPACE = pg_default
+       LC_COLLATE = 'en_US.UTF-8'
+       LC_CTYPE = 'en_US.UTF-8'
+       CONNECTION LIMIT = -1;
+
+
+       -- Table: department
+
+       -- DROP TABLE department;
+
+       CREATE TABLE department
+       (
+         id serial NOT NULL,
+         name text,
+         CONSTRAINT department_pkey PRIMARY KEY (id),
+         CONSTRAINT department_name_key UNIQUE (name)
+       )
+       WITH (
+         OIDS=FALSE
+       );
+       ALTER TABLE department
+         OWNER TO postgres;
+
+        -- Table: employee
+
+        -- DROP TABLE employee;
+
+        CREATE TABLE employee
+        (
+          id serial NOT NULL,
+          departmentid smallint NOT NULL,
+          firstname text NOT NULL,
+          lastname text NOT NULL,
+          email text NOT NULL,
+          ext smallint,
+          hiredate timestamp(6) without time zone,
+          leavedate timestamp(6) without time zone,
+          CONSTRAINT employee_pkey PRIMARY KEY (id),
+          CONSTRAINT department_id_fkey FOREIGN KEY (departmentid)
+              REFERENCES department (id) MATCH SIMPLE
+              ON UPDATE NO ACTION ON DELETE NO ACTION
+        )
+        WITH (
+          OIDS=FALSE
+        );
+        ALTER TABLE employee
+          OWNER TO postgres;
+

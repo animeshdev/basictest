@@ -1,0 +1,1906 @@
+2016/05/19 10:37:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/www/html/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/www/html/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/gii/model/index
+HTTP_REFERER=http://localhost/basictest/index.php/gii/default/index
+---
+2016/05/19 10:37:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/html/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/html/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/gii/crud/index
+HTTP_REFERER=http://localhost/basictest/index.php/gii/default/index
+---
+2016/05/19 10:38:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/html/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/html/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/gii/crud/index
+HTTP_REFERER=http://localhost/basictest/index.php/gii/controller/index
+---
+2016/05/19 10:38:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/www/html/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/www/html/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/gii/model/index
+HTTP_REFERER=http://localhost/basictest/index.php/gii/module/index
+---
+2016/05/19 10:40:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "postgresql"
+FATAL:  password authentication failed for user "postgresql"' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/www/html/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/www/html/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/gii/model/index
+HTTP_REFERER=http://localhost/basictest/index.php/gii/module/index
+---
+2016/05/19 10:51:24 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ss"
+LINE 1: SELECT COUNT(*) FROM "department" "t" WHERE id='ss'
+                                                       ^. The SQL statement executed was: SELECT COUNT(*) FROM "department" "t" WHERE id=:ycp0.
+in /var/www/html/basictest/protected/views/department/admin.php (54)
+in /var/www/html/basictest/protected/controllers/DepartmentController.php (143)
+in /var/www/html/basictest/index.php (13)
+2016/05/19 10:51:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ss"
+LINE 1: SELECT COUNT(*) FROM "department" "t" WHERE id='ss'
+                                                       ^. The SQL statement executed was: SELECT COUNT(*) FROM "department" "t" WHERE id=:ycp0' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1606): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#8 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /var/www/html/basictest/protected/views/department/admin.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#13 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#14 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#15 /var/www/html/basictest/protected/controllers/DepartmentController.php(143): CController->render('admin', Array)
+#16 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DepartmentController->actionAdmin()
+#17 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#26 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('department/admi...')
+#27 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#28 /var/www/html/basictest/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/basictest/index.php/department/admin?Department%5Bid%5D=ss&Department%5Bname%5D=&Department_page=1&ajax=department-grid
+HTTP_REFERER=http://localhost/basictest/index.php/department/admin
+---
+2016/05/19 10:57:54 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "cfc"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid='cfc'
+                                                               ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid=:ycp0.
+in /var/www/html/basictest/protected/views/employee/admin.php (62)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (143)
+in /var/www/html/basictest/index.php (13)
+2016/05/19 10:57:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "cfc"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid='cfc'
+                                                               ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid=:ycp0' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1606): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#8 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /var/www/html/basictest/protected/views/employee/admin.php(62): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#13 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#14 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#15 /var/www/html/basictest/protected/controllers/EmployeeController.php(143): CController->render('admin', Array)
+#16 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#17 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#26 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#27 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#28 /var/www/html/basictest/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=&Employee%5Bdepartmentid%5D=cfc&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/19 11:35:23 [error] [exception.CException] exception 'CException' with message 'Property "Employee.departmentId" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('departmentId')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('departmentId')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(1982): CHtml::resolveValue(Object(Employee), 'departmentId')
+#3 /var/www/html/yii/framework/web/widgets/CActiveForm.php(914): CHtml::activeDropDownList(Object(Employee), 'departmentId', Array, Array)
+#4 /var/www/html/basictest/protected/views/employee/_form.php(24): CActiveForm->dropDownList(Object(Employee), 'departmentId', Array)
+#5 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#6 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#7 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#8 /var/www/html/basictest/protected/views/employee/create.php(18): CController->renderPartial('_form', Array)
+#9 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#10 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#11 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#12 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#13 /var/www/html/basictest/protected/controllers/EmployeeController.php(79): CController->render('create', Array)
+#14 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionCreate()
+#15 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/create')
+#25 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/html/basictest/index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/basictest/index.php/employee/create
+HTTP_REFERER=http://localhost/basictest/index.php/employee/index
+---
+2016/05/19 15:07:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in /var/www/html/yii/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/html/yii/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/html/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 /var/www/html/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('department/admi...')
+#10 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/basictest/index.php(18): CApplication->run()
+#12 {main}
+REQUEST_URI=/basictest/index.php/department/admin?Department%5Bid%5D=&Department%5Bname%5D=ww&Department_page=1&ajax=department-grid
+HTTP_REFERER=http://localhost/basictest/index.php/department/admin
+---
+2016/05/19 18:23:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: ""
+LINE 1: ... VALUES (1, 'lorem', 'ipsum', 'lorem@gmail.com', 11, '', '')
+                                                                ^. The SQL statement executed was: INSERT INTO "employee" ("departmentid", "firstname", "lastname", "email", "ext", "hiredate", "leavedate") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (73)
+in /var/www/html/basictest/index.php (28)
+2016/05/19 18:23:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: ""
+LINE 1: ... VALUES (1, 'lorem', 'ipsum', 'lorem@gmail.com', 11, '', '')
+                                                                ^. The SQL statement executed was: INSERT INTO "employee" ("departmentid", "firstname", "lastname", "email", "ext", "hiredate", "leavedate") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /var/www/html/basictest/protected/controllers/EmployeeController.php(73): CActiveRecord->save()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionCreate()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/create')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(28): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/employee/create
+HTTP_REFERER=http://127.0.0.1/basictest/index.php/employee/create
+---
+2016/05/19 18:25:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: ""
+LINE 1: ...ate") VALUES (2, ' gbdf', 'dfbgd', 'df@ff.com', 111, '', '')
+                                                                ^. The SQL statement executed was: INSERT INTO "employee" ("departmentid", "firstname", "lastname", "email", "ext", "hiredate", "leavedate") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (73)
+in /var/www/html/basictest/index.php (28)
+2016/05/19 18:25:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: ""
+LINE 1: ...ate") VALUES (2, ' gbdf', 'dfbgd', 'df@ff.com', 111, '', '')
+                                                                ^. The SQL statement executed was: INSERT INTO "employee" ("departmentid", "firstname", "lastname", "email", "ext", "hiredate", "leavedate") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /var/www/html/basictest/protected/controllers/EmployeeController.php(73): CActiveRecord->save()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionCreate()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/create')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(28): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/employee/create
+HTTP_REFERER=http://127.0.0.1/basictest/index.php/employee/create
+---
+2016/05/19 18:37:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: ""
+LINE 1: ...leavedate") VALUES (2, 'asdad', 'asd', 'asdada', 11, '', '')
+                                                                ^. The SQL statement executed was: INSERT INTO "employee" ("departmentid", "firstname", "lastname", "email", "ext", "hiredate", "leavedate") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (73)
+in /var/www/html/basictest/index.php (28)
+2016/05/19 18:37:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: ""
+LINE 1: ...leavedate") VALUES (2, 'asdad', 'asd', 'asdada', 11, '', '')
+                                                                ^. The SQL statement executed was: INSERT INTO "employee" ("departmentid", "firstname", "lastname", "email", "ext", "hiredate", "leavedate") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /var/www/html/basictest/protected/controllers/EmployeeController.php(73): CActiveRecord->save()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionCreate()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/create')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(28): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/employee/create
+HTTP_REFERER=http://localhost/basictest/index.php/employee/create
+---
+2016/05/19 18:50:05 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.dateFormat" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dateFormat', 'MM/dd/yyyy')
+#1 /var/www/html/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(EmployeeController), 'zii.widgets.jui...', Array)
+#2 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 /var/www/html/basictest/protected/views/employee/_form.php(64): CBaseController->widget('zii.widgets.jui...', Array)
+#4 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#5 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#6 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#7 /var/www/html/basictest/protected/views/employee/update.php(21): CController->renderPartial('_form', Array)
+#8 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#9 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#10 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#11 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /var/www/html/basictest/protected/controllers/EmployeeController.php(103): CController->render('update', Array)
+#13 [internal function]: EmployeeController->actionUpdate('1')
+#14 /var/www/html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(EmployeeController), Array)
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(EmployeeController), Object(ReflectionMethod), Array)
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/update')
+#26 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#27 /var/www/html/basictest/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/basictest/index.php/employee/update/1
+HTTP_REFERER=http://127.0.0.1/basictest/index.php/employee/admin
+---
+2016/05/19 18:51:57 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.dateFormat" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dateFormat', 'MM/dd/yyyy')
+#1 /var/www/html/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(EmployeeController), 'zii.widgets.jui...', Array)
+#2 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 /var/www/html/basictest/protected/views/employee/_form.php(84): CBaseController->widget('zii.widgets.jui...', Array)
+#4 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#5 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#6 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#7 /var/www/html/basictest/protected/views/employee/update.php(21): CController->renderPartial('_form', Array)
+#8 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#9 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#10 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#11 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /var/www/html/basictest/protected/controllers/EmployeeController.php(103): CController->render('update', Array)
+#13 [internal function]: EmployeeController->actionUpdate('1')
+#14 /var/www/html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(EmployeeController), Array)
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(EmployeeController), Object(ReflectionMethod), Array)
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/update')
+#26 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#27 /var/www/html/basictest/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/basictest/index.php/employee/update/1
+HTTP_REFERER=http://127.0.0.1/basictest/index.php/employee/admin
+---
+2016/05/19 18:52:04 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.dateFormat" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dateFormat', 'MM/dd/yyyy')
+#1 /var/www/html/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(EmployeeController), 'zii.widgets.jui...', Array)
+#2 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 /var/www/html/basictest/protected/views/employee/_form.php(84): CBaseController->widget('zii.widgets.jui...', Array)
+#4 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#5 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#6 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#7 /var/www/html/basictest/protected/views/employee/update.php(21): CController->renderPartial('_form', Array)
+#8 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#9 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#10 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#11 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /var/www/html/basictest/protected/controllers/EmployeeController.php(103): CController->render('update', Array)
+#13 [internal function]: EmployeeController->actionUpdate('1')
+#14 /var/www/html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(EmployeeController), Array)
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(EmployeeController), Object(ReflectionMethod), Array)
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/update')
+#26 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#27 /var/www/html/basictest/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/basictest/index.php/employee/update/1
+HTTP_REFERER=http://127.0.0.1/basictest/index.php/employee/admin
+---
+2016/05/19 19:15:13 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "asdas"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE id='asdas'
+                                                     ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE id=:ycp0.
+in /var/www/html/basictest/protected/views/employee/admin.php (62)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (143)
+in /var/www/html/basictest/index.php (28)
+2016/05/19 19:15:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "asdas"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE id='asdas'
+                                                     ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE id=:ycp0' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1606): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#8 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /var/www/html/basictest/protected/views/employee/admin.php(62): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#13 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#14 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#15 /var/www/html/basictest/protected/controllers/EmployeeController.php(143): CController->render('admin', Array)
+#16 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#17 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#26 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#27 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#28 /var/www/html/basictest/index.php(28): CApplication->run()
+#29 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=asdas&Employee%5Bdepartmentid%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://127.0.0.1/basictest/index.php/employee/admin
+---
+2016/05/20 10:30:18 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "as"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE id='as'
+                                                     ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE id=:ycp0.
+in /var/www/html/basictest/protected/views/employee/admin.php (62)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (143)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 10:30:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "as"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE id='as'
+                                                     ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE id=:ycp0' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1606): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#8 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /var/www/html/basictest/protected/views/employee/admin.php(62): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#13 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#14 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#15 /var/www/html/basictest/protected/controllers/EmployeeController.php(143): CController->render('admin', Array)
+#16 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#17 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#26 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#27 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#28 /var/www/html/basictest/index.php(28): CApplication->run()
+#29 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=as&Employee%5Bdepartmentid%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 10:32:41 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "dd"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE id='dd'
+                                                     ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE id=:ycp0.
+in /var/www/html/basictest/protected/views/employee/admin.php (62)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (143)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 10:32:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "dd"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE id='dd'
+                                                     ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE id=:ycp0' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1606): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#8 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /var/www/html/basictest/protected/views/employee/admin.php(62): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#13 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#14 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#15 /var/www/html/basictest/protected/controllers/EmployeeController.php(143): CController->render('admin', Array)
+#16 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#17 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#26 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#27 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#28 /var/www/html/basictest/index.php(28): CApplication->run()
+#29 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=dd&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 10:36:49 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(143): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:37:32 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(143): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:37:32 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(143): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:41:08 [error] [exception.CException] exception 'CException' with message 'Property "Employee.0" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('0')
+#1 /var/www/html/yii/framework/base/CModel.php(596): CActiveRecord->__get('0')
+#2 /var/www/html/basictest/protected/controllers/EmployeeController.php(137): CModel->offsetGet(0)
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(28): CApplication->run()
+#16 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:49:55 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:49:59 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:49:59 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:50:57 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:50:58 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:52:08 [error] [php] Object of class Employee could not be converted to string (/var/www/html/basictest/protected/views/employee/admin.php:43)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(869): EmployeeController->renderFile()
+#1 /var/www/html/yii/framework/web/CController.php(782): EmployeeController->renderPartial()
+#2 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): EmployeeController->render()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): EmployeeController->runAction()
+#6 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): EmployeeController->filterAccessControl()
+#9 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/yii/framework/web/CController.php(265): EmployeeController->runActionWithFilters()
+#12 /var/www/html/yii/framework/web/CWebApplication.php(282): EmployeeController->run()
+#13 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/basictest/index.php(28): CWebApplication->run()
+REQUEST_URI=/basictest/index.php/employee/admin
+in /var/www/html/basictest/protected/views/employee/admin.php (43)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 10:56:01 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:57:28 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:57:29 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:57:30 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:57:43 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartment" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartment')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartment')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartment')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartment', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartment', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:57:58 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartmentss" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartmentss')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartmentss')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartmentss')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartmentss', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartmentss', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 10:57:59 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Deapartmentss" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Deapartmentss')
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(2729): CActiveRecord->__get('Deapartmentss')
+#2 /var/www/html/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(Employee), 'Deapartmentss')
+#3 /var/www/html/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(Employee), 'Deapartmentss', Array)
+#4 /var/www/html/yii/framework/zii/widgets/grid/CDataColumn.php(104): CHtml::activeTextField(Object(Employee), 'Deapartmentss', Array)
+#5 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#6 /var/www/html/yii/framework/zii/widgets/grid/CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(538): CGridColumn->renderFilterCell()
+#8 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(516): CGridView->renderFilter()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(486): CGridView->renderTableHeader()
+#10 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#15 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#19 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#20 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#21 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#22 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#32 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/html/basictest/index.php(28): CApplication->run()
+#34 {main}
+REQUEST_URI=/basictest/index.php/employee/admin
+HTTP_REFERER=http://localhost/basictest/index.php/site/login
+---
+2016/05/20 11:03:36 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ss"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid='ss'
+                                                               ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid=:ycp0.
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:03:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ss"
+LINE 1: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid='ss'
+                                                               ^. The SQL statement executed was: SELECT COUNT(*) FROM "employee" "t" WHERE departmentid=:ycp0' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1606): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#7 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#8 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#13 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#14 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#15 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#16 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#17 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#26 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#27 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#28 /var/www/html/basictest/index.php(28): CApplication->run()
+#29 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=&Employee%5Bdepartmentid%5D=ss&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 11:21:34 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:21:41 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:21:44 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:21:44 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ...t" ON ("t"."departmentid"="department"."id") WHERE (id='11')
+                                                               ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:21:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ...t" ON ("t"."departmentid"="department"."id") WHERE (id='11')
+                                                               ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=11&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 11:21:49 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:21:49 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ...nt" ON ("t"."departmentid"="department"."id") WHERE (id='1')
+                                                                ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:21:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ...nt" ON ("t"."departmentid"="department"."id") WHERE (id='1')
+                                                                ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=1&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 11:22:53 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:22:57 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:23:47 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:23:50 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:23:58 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:24:27 [warning] [application] Failed to set unsafe attribute "department_name" of "Employee".
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (145)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:34:19 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ..." ON ("t"."departmentid"="department"."id") WHERE (id='asd')
+                                                              ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:34:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ..." ON ("t"."departmentid"="department"."id") WHERE (id='asd')
+                                                              ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=asd&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&Employee_sort=department_name&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 11:36:04 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ..." ON ("t"."departmentid"="department"."id") WHERE (id='asd')
+                                                              ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 11:36:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ..." ON ("t"."departmentid"="department"."id") WHERE (id='asd')
+                                                              ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=asd&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&Employee_sort=department_name&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:03:06 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ads"
+LINE 1: ...ON ("t"."departmentid"="department"."id") WHERE (t.id='ads')
+                                                                 ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:03:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ads"
+LINE 1: ...ON ("t"."departmentid"="department"."id") WHERE (t.id='ads')
+                                                                 ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=ads&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:03:17 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ads"
+LINE 1: ...t"."departmentid"="department"."id") WHERE ((t.id='ads') AND...
+                                                             ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE ((t.id=:ycp0) AND (firstname LIKE :ycp1)).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:03:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "ads"
+LINE 1: ...t"."departmentid"="department"."id") WHERE ((t.id='ads') AND...
+                                                             ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE ((t.id=:ycp0) AND (firstname LIKE :ycp1))' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=ads&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=11&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:03:49 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: integer ~~ unknown
+LINE 1: ..."t"."departmentid"="department"."id") WHERE (t.id LIKE '%11%...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id LIKE :ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:03:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: integer ~~ unknown
+LINE 1: ..."t"."departmentid"="department"."id") WHERE (t.id LIKE '%11%...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id LIKE :ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=11&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:07:31 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "aa"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='aa')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:07:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "aa"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='aa')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=aa&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:08:18 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "aa"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='aa')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:08:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "aa"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='aa')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=aa&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:10:41 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "sdfs"
+LINE 1: ...N ("t"."departmentid"="department"."id") WHERE (t.id='sdfs')
+                                                                ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:10:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "sdfs"
+LINE 1: ...N ("t"."departmentid"="department"."id") WHERE (t.id='sdfs')
+                                                                ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=sdfs&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:36:40 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "dd"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='dd')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:36:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "dd"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='dd')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=dd&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:45:53 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "qq"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='qq')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:45:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "qq"
+LINE 1: ... ON ("t"."departmentid"="department"."id") WHERE (t.id='qq')
+                                                                  ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (t.id=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=qq&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 12:56:35 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "bnhjg"
+LINE 1: ...N ("t"."departmentid"="department"."id") WHERE (ext='bnhjg')
+                                                               ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (ext=:ycp0).
+in /var/www/html/basictest/protected/views/employee/admin.php (67)
+in /var/www/html/basictest/protected/controllers/EmployeeController.php (149)
+in /var/www/html/basictest/index.php (28)
+2016/05/20 12:56:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "bnhjg"
+LINE 1: ...N ("t"."departmentid"="department"."id") WHERE (ext='bnhjg')
+                                                               ^. The SQL statement executed was: SELECT COUNT(DISTINCT "t"."id") FROM "employee" "t"  LEFT OUTER JOIN "department" "department" ON ("t"."departmentid"="department"."id") WHERE (ext=:ycp0)' in /var/www/html/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/html/yii/framework/db/ar/CActiveFinder.php(764): CDbCommand->queryScalar()
+#2 /var/www/html/yii/framework/db/ar/CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 /var/www/html/yii/framework/db/ar/CActiveRecord.php(1610): CActiveFinder->count(Object(CDbCriteria))
+#4 /var/www/html/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 /var/www/html/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 /var/www/html/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 /var/www/html/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 /var/www/html/yii/framework/zii/widgets/CBaseListView.php(125): CDataProvider->getData()
+#9 /var/www/html/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#10 /var/www/html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#11 /var/www/html/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 /var/www/html/basictest/protected/views/employee/admin.php(67): CBaseController->widget('zii.widgets.gri...', Array)
+#13 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/b...')
+#14 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/b...', Array, true)
+#15 /var/www/html/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/b...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#17 /var/www/html/basictest/protected/controllers/EmployeeController.php(149): CController->render('admin', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): EmployeeController->actionAdmin()
+#19 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#22 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#26 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#28 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#29 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#30 /var/www/html/basictest/index.php(28): CApplication->run()
+#31 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=bnhjg&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 15:08:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in /var/www/html/yii/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/html/yii/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/html/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 /var/www/html/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#10 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/basictest/index.php(28): CApplication->run()
+#12 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---
+2016/05/20 15:08:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in /var/www/html/yii/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/html/yii/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/html/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 /var/www/html/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#10 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/basictest/index.php(28): CApplication->run()
+#12 {main}
+REQUEST_URI=/basictest/index.php/employee/admin?Employee%5Bid%5D=&Employee%5Bdepartment_name%5D=&Employee%5Bfirstname%5D=&Employee%5Blastname%5D=&Employee%5Bemail%5D=&Employee%5Bext%5D=&Employee_page=1&ajax=employee-grid
+HTTP_REFERER=http://localhost/basictest/index.php/employee/admin
+---

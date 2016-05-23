@@ -1,0 +1,63 @@
+CREATE TABLE lts_agent_skill
+(
+  id serial NOT NULL,
+  agent_id integer,
+  agent_skill_attribute_id integer,
+  create_date timestamp(6) without time zone,
+  update_date timestamp(6) without time zone,
+  CONSTRAINT lts_agent_skill_pkey PRIMARY KEY (id),
+  CONSTRAINT lts_agent_skill_agent_id_fkey FOREIGN KEY (agent_id)
+      REFERENCES tbl_user (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION,
+  CONSTRAINT lts_agent_skill_agent_skill_attribute_id_fkey FOREIGN KEY (agent_skill_attribute_id)
+      REFERENCES lts_skill (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE lts_agent_skill
+  OWNER TO postgres;
+
+
+
+CREATE TABLE Employee (
+    id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    departmentId TINYINT UNSIGNED NOT NULL
+        COMMENT "CONSTRAINT FOREIGN KEY (departmentId) REFERENCES Department(id)",
+    firstName VARCHAR(20) NOT NULL,
+    lastName VARCHAR(40) NOT NULL,
+    email VARCHAR(60) NOT NULL,
+    ext SMALLINT UNSIGNED NULL,
+    hireDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    leaveDate DATETIME NULL,
+    INDEX name (lastName, firstName),
+    INDEX (departmentId)
+)
+
+
+CREATE TABLE Employee (
+
+id serial NOT NULL,
+departmentId smallint NOT NULL,
+firstName text NOT NULL,
+lastName text NOT NULL,
+email text NOT NULL,
+ext smallint NULL,
+hireDate timestamp(6) without time zone,
+leaveDate timestamp(6) without time zone,
+  CONSTRAINT employee_pkey PRIMARY KEY (id),
+  CONSTRAINT department_id_fkey FOREIGN KEY (departmentId)
+        REFERENCES Department (id) MATCH SIMPLE
+
+
+
+)
+
+
+CREATE TABLE Department (
+    id serial NOT NULL,
+    name text,
+    UNIQUE (name)
+    CONSTRAINT department_pkey PRIMARY KEY (id)
+)
